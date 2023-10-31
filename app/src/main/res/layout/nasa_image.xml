@@ -19,20 +19,31 @@
         android:id="@+id/title_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+
+        android:fontFamily="@font/homemade_apple"
+        android:padding="8dp"
         android:text="Title"
+        android:textAlignment="center"
+        android:textColor="#073B4C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nasa_image"
-        app:layout_constraintTop_toTopOf="@+id/nasa_image"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/nasa_image" />
 
     <TextView
         android:id="@+id/date_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+
+
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="@font/amiko_bold"
+        android:padding="8dp"
         android:text="Date"
+        android:textAppearance="@style/TextAppearance.Quote"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/nasa_image"
-        app:layout_constraintTop_toBottomOf="@+id/title_text"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/title_text" />
 </androidx.constraintlayout.widget.ConstraintLayout>
